@@ -1,15 +1,14 @@
 import './App.css'
 import ReceptList from './components/ReceptList/ReceptList'
-import ReceptItem from './components/ReceptItem/ReceptItem'
+import { GlobalStyle } from './GlobalStyle'
 
 function App() {
   
 
   return (
     <>
-      <ReceptList>
-        <ReceptItem/>
-      </ReceptList>
+      <GlobalStyle/>
+      <ReceptList/>
     </>
   )
 }

@@ -1,26 +1,17 @@
+import FirstElem from "../FirstElem/FirstElem"
+import SecondElem from "../../SecondItem/SecondElem"
+import ThirdElem from "../../ThirdElem/ThirdElem"
+import FourthElem from "../../FourthElem/FourthElem"
+import { List } from './ReceptList.styled'
+
 function ReceptList() {
     return (
-        <ul>
-            <li>
-                <img src="" alt="" />
-                <p></p>
-                <ul>
-                    <li>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h3></h3>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        <List>
+            <FirstElem/>
+            <SecondElem/>
+            <ThirdElem/>
+            <FourthElem/>
+        </List>
     )
 }
 
